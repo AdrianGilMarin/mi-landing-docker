@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f7fa;
     color: #333;
@@ -12,7 +12,7 @@ body{
     scroll-behavior: smooth;
 }
 
-.navbar{
+.navbar {
     position: sticky;
     top: 0;
     background-color: #002b5c;
@@ -29,24 +29,24 @@ body{
     transition: color 0.2s ease;
 }
 
-.navbar a:hover{
+.navbar a:hover {
     color: #90caf9;
 }
 
-.header{
+.header {
     background: linear-gradient(135deg, #004aad, #0077cc);
     color: white;
     text-align: center;
     padding: 50px 20px;
 }
 
-.logo{
+.logo {
     width: 120px;
     display: block;
     margin: 0 auto 15px auto;
 }
 
-.perfil{
+.perfil {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -56,7 +56,7 @@ body{
     margin: 0 auto 15px auto;
 }
 
-.header h1{
+.header h1 {
     font-size: 2.5rem;
     margin-bottom: 10px;
 }
@@ -65,13 +65,13 @@ body{
     font-size: 1.1rem;
 }
 
-.container{
+.container {
     width: 90%;
     max-width: 1000px;
     margin: 40px auto;
 }
 
-.card{
+.card {
     background-color: white;
     padding: 25px;
     margin-bottom: 25px;
@@ -81,27 +81,27 @@ body{
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 18px rgba(0,0,0,0.12);
 }
 
-.card h2{
+.card h2 {
     color: #004aad;
     margin-bottom: 15px;
     border-bottom: 2px solid #004aad;
     padding-bottom: 8px;
 }
 
-.card ul{
+.card ul {
     padding-left: 20px;
 }
 
-.card li{
+.card li {
     margin-bottom: 8px;
 }
 
-a{
+a {
     color: #004aad;
     text-decoration: none;
 }
@@ -110,7 +110,7 @@ a:hover{
     text-decoration: underline;
 }
 
-.footer{
+.footer {
     background-color: #002b5c;
     color: white;
     text-align: center;
@@ -118,7 +118,7 @@ a:hover{
     margin-top: 40px;
 }
 
-.footer a{
+.footer a {
     color: white;
     margin: 0 5px;
     transition: color 0.2s ease;
@@ -130,21 +130,21 @@ a:hover{
 
 @media (max-width: 768px){
 
-    .navbar{
+    .navbar {
         flex-direction: column;
         align-items: center;
     }
 
-    .header h1{
+    .header h1 {
         font-size: 2rem;
     }
 
-    .perfil{
+    .perfil {
         width: 120px;
         height: 120px;
     }
 
-    .container{
+    .container {
         width: 95%;
     }
 }
