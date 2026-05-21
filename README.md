@@ -1,9 +1,9 @@
-<h3 id="titulo">mi-landing-docker</h3>:
+<h3 id="titulo">mi-landing-docker</h3>
 
-Que hace el proyecto:
+<h2>Que hace el proyecto</h2>
 
 
-En lo que consiste es una landing personal desarrollada con HTML y CSS, lo que hace el proyecto es mediante un contenedor Docker se pueda acceder a la pagina web mediante el puerto que tenemos asignado.
+<p> En lo que consiste es una landing personal desarrollada con HTML y CSS, lo que hace el proyecto es mediante un contenedor Docker se pueda acceder a la pagina web mediante el puerto que tenemos asignado. </p>
 
 
 
