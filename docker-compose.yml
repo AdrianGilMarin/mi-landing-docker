@@ -2,4 +2,4 @@ services:
 landing:
 build: .
 ports:
-- "8081:80"
+- "8089:80"
