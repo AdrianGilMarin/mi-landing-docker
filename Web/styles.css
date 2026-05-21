@@ -31,10 +31,10 @@ header {
 }
 
 .container {
-    width: 100%;        /* 👈 ocupa toda la pantalla */
-    max-width: none;    /* 👈 quita límite */
-    margin: 0;          /* 👈 elimina centrado */
-    padding: 40px 60px; /* 👈 espacio interior */
+    width: 100%;      
+    max-width: none;   
+    margin: 0;          
+    padding: 40px 60px; 
 }
 
 .card {
